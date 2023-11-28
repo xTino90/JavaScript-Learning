@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(223, 193, 156);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+
+}
+
+h1 {
+    color: aliceblue;
+    text-shadow: 2px 2px 4px #000000;
+}
