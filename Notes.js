@@ -1,3 +1,22 @@
+//######################## If Else statements ######################//
+const age = 3
+const specialUncle = true;
+if (age >= 18) {
+    console.log("You can take driving license");
+} else {
+    const yearsLeft = 18 - age;
+    console.log(`You can't take driving license, wait another ${yearsLeft} year :)`);
+}
+
+if (age == 3 && specialUncle) {
+    console.log(`You can driving without driving license ;)`)
+}
+
+//#################################################################//
+
+
+
+
 function prova(a, b) {
     return a + b;
 }
@@ -401,3 +420,15 @@ const insegnante1 = new Insegnante("anna", "blu", 44, "femmina", ["netflix"], "s
 console.log(insegnante);
 insegnante.materia = "matematica"
 console.log(insegnante.materia);
+
+//-----------------------------------Template Literals-----------------------//
+
+const firstName = "Tino";
+const lastName = "Di Costanzo";
+const learning = "JavaScript";
+const age = "1990";
+
+console.log(`I'm ${firstName} ${lastName}, and I'm currenly learning ${learning}.
+I'm ${2023 - age} years old.`);
+
+//----------------------------------------------------------------------------//

@@ -11,3 +11,5 @@ console.log(bmiJohn);           //24.983563445101908
 
 markHeightBmi = bmiMark > bmiJohn;
 console.log(markHeightBmi);      // true
+
+
