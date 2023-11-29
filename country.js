@@ -6,4 +6,4 @@ let languege =
 
     console.log(population + " " + isIsland + " " + country);
 
-isIsland = true;
+
