@@ -13,10 +13,53 @@ if (age == 3 && specialUncle) {
 }
 
 //#################################################################//
+const day = "thursday"
+
+if (day == "monday") {
+    console.log("plan to study");
+} else if (day == "Tuesday") {
+    console.log("prepare the theory");
+} else if (day == "Wendsday" || day == "Thursday") {
+    console.log("write code example");
+} else if (day == "Friday") {
+    console.log("record videos");
+} else if (day == "Saturday" || day == "Sunday") {
+    console.log("Enjoy the week-end");
+} else {
+    console.log("day is not valid!");
+}
+
+
+// -------------SWITH STATEMENT-----------//
+
+switch (day) {
+    case "monday":
+        console.log("plan to study");
+        break;
+    case "tuesday":
+        console.log("prepare the theory");
+        break;
+    case "wendsday":
+    case "thursday":
+        console.log("write code example");
+        break;
+    case "friday":
+        console.log("record videos");
+        break;
+    case "saturday":
+    case "sunday":
+        console.log("Enjoy the week-end");
+        break;
+    default:
+        console.log("day is not valid!");
+};
 
 
 
 
+
+
+//---------------------------FUNCTION--------------------------//
 function prova(a, b) {
     return a + b;
 }
