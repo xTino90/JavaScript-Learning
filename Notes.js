@@ -65,7 +65,7 @@ function prova(a, b) {
 }
 
 let risultato = prova(10, 20);
-let ciao = "sono una modifica"aaaaa
+
 let risultato = 10 + 20
 console.log(prova);
 
