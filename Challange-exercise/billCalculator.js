@@ -74,7 +74,10 @@ const calcTip = function (bill) {
 const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
 const tips = [];
 const totals = [];
+<<<<<<< HEAD:Challange-exercise/billCalculator.js
 
+=======
+>>>>>>> 93894687f0eab47c9713bc683dcdd23c76143b88:execise/billCalculator.js
 for (let i = 0; i < bills.length; i++) {
   const tip = calcTip(bills[i]);
   tips.push(tip);
